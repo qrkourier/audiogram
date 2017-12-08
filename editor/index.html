@@ -23,7 +23,8 @@
         <div id="error"></div>
         <div class="row form-row" id="row-audio">
           <label for="input-audio">Audio</label>
-          <input id="input-audio" name="audio" type="file" />
+          <div class="note">This demo is ment to show off the new editor and cannot be used to make Audiograms.</div>
+          <input style="display:none" id="input-audio" name="audio" type="file" />
         </div>
         <div class="row form-row" id="row-theme">
           <label for="input-theme">Theme</label>
@@ -43,34 +44,6 @@
             <div id="canvas">
               <canvas width="640" height="360"></canvas>
               <div id="preview-label">Preview</div>
-            </div>
-          </div>
-          <div id="minimap" class="hidden">
-            <svg width="640" height="80" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <clipPath id="clip">
-                  <rect height="80" width="640" x="0" y="0"></rect>
-                </clipPath>
-              </defs>
-              <g class="waveform background">
-                <line x1="0" x2="640" y1="40" y2="40"></line>
-                <path></path>
-              </g>
-              <g class="waveform foreground" clip-path="url(#clip)">
-                <line x1="0" x2="640" y1="40" y2="40"></line>
-                <path></path>
-              </g>
-              <g class="brush"></g>
-              <g class="time">
-                <line x1="0" x2="0" y1="0" y2="80"></line>
-              </g>
-            </svg>
-            <div id="controls">
-              <span id="tip">Click and drag over the waveform to clip audio<br />Use space bar to play/pause</span>
-              <span id="duration"><strong></strong> seconds selected</span>
-              <button id="play"><i class="fa fa-play"></i>Play</button>
-              <button id="pause" class="hidden"><i class="fa fa-pause"></i>Pause</button>
-              <button id="restart"><i class="fa fa-step-backward"></i>Restart</button>
             </div>
           </div>
         </div>

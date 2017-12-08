@@ -188,7 +188,7 @@ function initialize(err, themesWithImages) {
     setClass(null);
   });
 
-  d3.select("#submit").on("click", submitted);
+  // d3.select("#submit").on("click", submitted);
 
   d3.select("#theme-edit").on("click", function(){
     var activeTheme = d3.select('#input-theme').property('value');
@@ -234,7 +234,7 @@ function updateAudioFile() {
       setClass(null);
     }
 
-    d3.selectAll("#minimap, #submit").classed("hidden", !!err);
+    // d3.selectAll("#minimap, #submit").classed("hidden", !!err);
 
   });
 
