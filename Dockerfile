@@ -29,7 +29,7 @@ USER audiogram
 WORKDIR /home/audiogram
 
 # Clone repo
-RUN git clone https://github.com/brizandrew/audiogram.git
+RUN git clone https://github.com/qrkourier/audiogram.git
 WORKDIR /home/audiogram/audiogram
 VOLUME /home/audiogram/audiogram
 
