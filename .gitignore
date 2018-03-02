@@ -7,4 +7,4 @@ junk/
 media/
 *.log
 .jobs
-settings/backgrounds/
+package-lock.json
