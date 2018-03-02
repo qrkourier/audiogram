@@ -25,7 +25,7 @@
   "dependencies": {
     "aws-sdk": "^2.2.39",
     "browserify": "^13.0.0",
-    "canvas": "git+https://github.com/chearon/node-canvas.git#12971f64a66b",
+    "canvas": "git://github.com/elspoono/node-canvas-heroku.git",
     "compression": "^1.6.1",
     "d3": "4.10.0",
     "dotenv": "^2.0.0",
@@ -46,6 +46,7 @@
   "devDependencies": {
     "supertest": "^1.2.0",
     "tape": "^4.6.0",
-    "watchify": "^3.7.0"
+    "watchify": "^3.7.0",
+    "canvas": "~0.8.1"
   }
 }
