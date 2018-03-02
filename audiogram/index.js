@@ -134,7 +134,7 @@ Audiogram.prototype.combineFrames = function(cb) {
     framePath: path.join(this.frameDir, "%06d.png"),
     audioPath: this.audioPath,
     videoPath: this.videoPath,
-    framesPerSecond: this.settings.theme.framesPerSecond
+    //framesPerSecond: this.settings.theme.framesPerSecond
   }, cb);
 
 };
